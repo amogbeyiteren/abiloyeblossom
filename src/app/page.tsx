@@ -51,7 +51,7 @@ export default function Page() {
   useEffect(() => {
     if (mainRef.current) {
       // Set the initial height
-      setMainHeight(mainRef.current.offsetHeight + 700);
+      setMainHeight(mainRef.current.offsetHeight + 300);
 
       // Update the height when window resizes
       const handleResize = () =>
@@ -322,8 +322,8 @@ export default function Page() {
       </section>
 
       <section id="contact">
-        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
-          <BlurFade delay={BLUR_FADE_DELAY * 16}>
+        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12 overflow-x-hidden">
+          <BlurFade delay={BLUR_FADE_DELAY * 16} className="w-full">
             <div className="space-y-3">
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                 Contact
@@ -332,14 +332,14 @@ export default function Page() {
                 Get in Touch
               </h2> */}
               <OrbitingCircle />
-              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              {/* <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Want to chat? Just shoot me a dm{" "}
                 <Link href="" className="text-blue-500 hover:underline">
                   with a direct question on twitter
                 </Link>{" "}
                 and I&apos;ll respond whenever I can. I will ignore all
                 soliciting.
-              </p>
+              </p> */}
             </div>
           </BlurFade>
         </div>
