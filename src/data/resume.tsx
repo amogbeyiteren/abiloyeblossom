@@ -749,8 +749,8 @@ export const DATA = {
       location: "Remote",
       title: "Full Stack Developer",
       logoUrl: "/reispar.png",
-      start: "May 2024",
-      end: "Present",
+      start: "2024",
+      end: "",
       image: "/semis.png",
       
     description:
@@ -763,8 +763,8 @@ export const DATA = {
       location: "Remote",
       title: "Full Stack Developer (React Native)",
       logoUrl: "/villaja.png",
-      start: "May 2024",
-      end: "Present",
+      start: "2024",
+      end: "",
       image: "/villaja.jpg",
       description:
         "Developed optimized front-end interfaces and integrated APIs to enhance user experience and streamline project delivery. Worked closely with UX/UI designers, and implemented responsive design standards.",
