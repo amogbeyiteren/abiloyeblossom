@@ -697,9 +697,9 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/Sapele,+Delta",
   description:
     "Experienced Full Stack Developer skilled in producing impactful, user-centered web and mobile applications, with a focus on intuitive and innovative UI design.",
-  summary:
-    "With over 3 years of experience, I specialize in web and mobile development with an emphasis on user experience and responsive design. Currently working as a Full Stack Developer, I'm dedicated to delivering seamless project experiences by integrating front-end and back-end technologies. Passionate about translating technical concepts into accessible, user-friendly solutions and driving ROI through efficient and high-performing code.",
-  avatarUrl: "/profile.png",
+    summary:
+    "With over 3 years of experience, I specialize in [web and mobile development](/#skills) with an emphasis on [user experience and responsive design](/#project). Currently working as a [Full Stack Developer](/#work), I'm dedicated to delivering seamless project experiences by integrating [front-end and back-end technologies](/#skills). Passionate about translating technical concepts into accessible, user-friendly solutions and driving ROI through efficient and high-performing code. Additionally, I value continuous learning through [certifications](/#certifications-publications) and [education](/#education).",
+avatarUrl: "/profile.png",
   skills: [
     "Responsive Web & Cross-Platform Development",
     "API Integration & RESTful APIs",
