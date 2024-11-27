@@ -57,6 +57,8 @@ export function ProjectCard({
             loop
             muted
             playsInline
+            preload="metadata"
+            poster="/placeholder.webp"
             className="pointer-events-none mx-auto h-40 w-full object-contain object-top" // needed because random black line at bottom of video
           />
         )}
