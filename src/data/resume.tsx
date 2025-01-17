@@ -886,6 +886,77 @@ avatarUrl: "/profile.png",
           video:
             "/villaja.mp4",
         },
+        {
+          title: "0day Security",
+          href: "https://0daysecurity.io",
+          dates: "2024",
+          active: true,
+          description:
+            "Developed a brand website for a canadian based cyber security firm with live chat integrations",
+          technologies: [
+            "ReactJS",
+            "TailwindCSS"
+
+          ],
+          links: [
+            {
+              type: "Website",
+              href: "https://0daysecurity.io",
+              icon: <Icons.globe className="size-3" />,
+            },
+          ],
+          image: "",
+          video:
+            "/0day.mp4",
+        },
+        {
+          title: "Dinner Site",
+          href: "https://dinner-site.onrender.com/",
+          dates: "2025",
+          active: true,
+          description:
+            "Pet Project: Used Framer motion animations to develop a user centered Landing page for a college dinner",
+          technologies: [
+            "ReactJS",
+            "TailwindCSS",
+            "Framer Motion"
+
+          ],
+          links: [
+            {
+              type: "Website",
+              href: "https://dinner-site.onrender.com/",
+              icon: <Icons.globe className="size-3" />,
+            },
+          ],
+          image: "",
+          video:
+            "/dinner.mp4",
+        },
+        {
+          title: "AO Cybersecurity Partners",
+          href: "https://ao-partners-cybersecurity.onrender.com/",
+          dates: "2024",
+          active: true,
+          description:
+            "Pet Project: Used Framer motion animations, ReactJS and tailwind to design brand website for ao cybersecurity firm",
+          technologies: [
+            "ReactJS",
+            "TailwindCSS",
+            "Framer Motion"
+
+          ],
+          links: [
+            {
+              type: "Website",
+              href: "https://dinner-site.onrender.com/",
+              icon: <Icons.globe className="size-3" />,
+            },
+          ],
+          image: "",
+          video:
+            "/a0.mp4",
+        },
       ],
   certifications: [
     {
