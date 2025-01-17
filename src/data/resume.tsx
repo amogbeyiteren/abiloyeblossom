@@ -949,7 +949,7 @@ avatarUrl: "/profile.png",
           links: [
             {
               type: "Website",
-              href: "https://dinner-site.onrender.com/",
+              href: "https://ao-partners-cybersecurity.onrender.com/",
               icon: <Icons.globe className="size-3" />,
             },
           ],
