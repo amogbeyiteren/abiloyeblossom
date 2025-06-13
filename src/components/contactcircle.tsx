@@ -40,7 +40,7 @@ export function OrbitingCircle() {
           radius={radius}
         >
           <Icons.instagram />
-        </OrbitingCircles> */}
+        </OrbitingCircles> 
         <OrbitingCircles
           className="size-[30px] border-none bg-transparent"
           duration={20}
@@ -49,6 +49,7 @@ export function OrbitingCircle() {
         >
           <Icons.linkedin />
         </OrbitingCircles>
+        */}
 
         {/* Outer Circles (reverse) */}
         <OrbitingCircles
@@ -84,6 +85,7 @@ const Icons = {
       />
     </svg>
   ),
+  /*
   linkedin: () => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -103,6 +105,7 @@ const Icons = {
       />
     </svg>
   ),
+  */
   openai: () => (
     <svg
       width="100"
