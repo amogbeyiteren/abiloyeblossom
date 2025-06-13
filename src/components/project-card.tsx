@@ -26,6 +26,7 @@ interface Props {
     href: string;
   }[];
   className?: string;
+  placeholder?: string;
 }
 
 export function ProjectCard({
@@ -39,6 +40,7 @@ export function ProjectCard({
   video,
   links,
   className,
+  placeholder,
 }: Props) {
   return (
     <Card
@@ -58,7 +60,7 @@ export function ProjectCard({
             muted
             playsInline
             preload="metadata"
-            poster="/placeholder.webp"
+            poster={placeholder || "/placeholder.webp"}
             className="pointer-events-none mx-auto h-40 w-full object-contain object-top" // needed because random black line at bottom of video
           />
         )}

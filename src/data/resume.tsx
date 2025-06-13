@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon } from "lucide-react";
 
 // export const DATA = {
 //   name: "Dillion Verma",
@@ -697,9 +697,9 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/Sapele,+Delta",
   description:
     "Experienced Full Stack Developer skilled in producing impactful, user-centered web and mobile applications, with a focus on intuitive and innovative UI design.",
-    summary:
+  summary:
     "With over 3 years of experience, I specialize in [web and mobile development](/#skills) with an emphasis on [user experience and responsive design](/#projects). Currently working as a [Full Stack Developer](/#work), I'm dedicated to delivering seamless project experiences by integrating [front-end and back-end technologies](/#skills). Passionate about translating technical concepts into accessible, user-friendly solutions and driving ROI through efficient and high-performing code. Additionally, I value continuous learning through [certifications](/#certifications-publications) and [education](/#education).",
-avatarUrl: "/profile.png",
+  avatarUrl: "/profile.png",
   skills: [
     "Responsive Web & Cross-Platform Development",
     "API Integration & RESTful APIs",
@@ -711,7 +711,7 @@ avatarUrl: "/profile.png",
     "Debugging & Software Best Practices",
     "Web Security & API Documentation",
     "Asynchronous Task Handling & Message Queues",
-    "Requirements Gathering & Team Collaboration"
+    "Requirements Gathering & Team Collaboration",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -727,12 +727,7 @@ avatarUrl: "/profile.png",
         icon: Icons.github,
         navbar: true,
       },
-      LinkedIn: {
-        name: "LinkedIn",
-        url: "https://linkedin.com/in/abiloye-mogbeyiteren-412909286",
-        icon: Icons.linkedin,
-        navbar: true,
-      },
+
       email: {
         name: "Send Email",
         url: "mailto:amogbeyiteren@gmail.com",
@@ -743,6 +738,20 @@ avatarUrl: "/profile.png",
   },
   work: [
     {
+      company: "Flance Technologies",
+      href: "https://www.flanceapp.com",
+      badges: [],
+      location: "Remote",
+      title: "Frontend Engineer",
+      logoUrl: "/flance.png",
+      start: "2025",
+      end: "",
+      image: "/flance.png",
+
+      description:
+        "Collaborated with the backend team to build the frontend of the Flance web applicatons. Worked on the UI/UX of the app and the integration of the backend APIs.",
+    },
+    {
       company: "Reispar Technologies",
       href: "https://reispartechnologies.com",
       badges: [],
@@ -752,8 +761,8 @@ avatarUrl: "/profile.png",
       start: "2024",
       end: "",
       image: "/semis.png",
-      
-    description:
+
+      description:
         "Developed functional databases and back-end applications using Django and PostgreSQL. Collaborated with teams on feature design and implementation while maintaining project documentation and code reliability.",
     },
     {
@@ -783,181 +792,128 @@ avatarUrl: "/profile.png",
     },
   ],
   projects: [
+    {
+      title: "Anywherehealing Landing Page",
+      href: "https://www.anywherehealing.com",
+      dates: "2025",
+      active: true,
+      description:
+        "I built a landing page for a health and wellness technology company to help with better representation of their services.",
+      technologies: ["NextJS", "Typescript", "TailwindCSS", "Sanity CMS"],
+      links: [
         {
-          title: "Kipitfresh Website",
-          href: "https://kipitfresh.onrender.com",
-          dates: "June Feb 2024",
-          active: true,
-          description:
-            "I built an e-commerce website to help connect fruit farmers, logistic drivers and clients in sub-saharan africa.",
-          technologies: [
-            "Vite.js",
-            "Typescript",
-            "TailwindCSS",
-
-          ],
-          links: [
-            {
-              type: "Website",
-              href: "https://kipitfresh.onrender.com",
-              icon: <Icons.globe className="size-3" />,
-            },
-            {
-              type: "Source",
-              href: "https://github.com/amogbeyiteren/kipitfresh",
-              icon: <Icons.github className="size-3" />,
-            },
-          ],
-          image: "",
-          video:
-            "/kipitfresh.mp4",
-        },
-        {
-          title: "Reispar Technologies",
-          href: "https://reispartechnologies.com",
-          dates: "2024",
-          active: true,
-          description:
-            "Designed, developed  brand website.",
-          technologies: [
-            "React.js",
-            "Vite.js",
-            "Typescript",
-            "Sass",
-          ],
-          links: [
-            {
-              type: "Website",
-              href: "https://reispartechnologies.com",
-              icon: <Icons.globe className="size-3" />,
-            },
-            
-          ],
-          image: "",
-          video: "/reispar.mp4",
-        },
-        {
-          title: "Semis",
-          href: "https://semis.reispartechnologies.com",
-          dates: "2024",
-          active: true,
-          description:
-            "Developed UI componenents on the front end of this application to connect mentors and mentees in the AI space. ALso developed multiple backend apis",
-            technologies: [
-              "React.js",
-              "Vite.js",
-              "Typescript",
-              "Sass",
-              "PostgreSql",
-              "AWS",
-              "Azure",
-              "Django"
-            ],
-          links: [
-            {
-              type: "Website",
-              href: "https://semis.reispartechnologies.com",
-              icon: <Icons.globe className="size-3" />,
-            }
-          ],
-          image: "",
-          video: "/semis.mp4",
-        },
-        {
-          title: "Villaja",
-          href: "https://villaja.com",
-          dates: "2024",
-          active: true,
-          description:
-            "Developed an e-commerce mobile applications to connect customers and sellers of tech gadgets",
-          technologies: [
-            "React Native",
-            "Expo",
-            "CSS"
-          ],
-          links: [
-            {
-              type: "Website",
-              href: "https://villaja.com",
-              icon: <Icons.globe className="size-3" />,
-            },
-          ],
-          image: "",
-          video:
-            "/villaja.mp4",
-        },
-        {
-          title: "0day Security",
-          href: "https://0daysecurity.io",
-          dates: "2024",
-          active: true,
-          description:
-            "Developed a brand website for a canadian based cyber security firm with live chat integrations",
-          technologies: [
-            "ReactJS",
-            "TailwindCSS"
-
-          ],
-          links: [
-            {
-              type: "Website",
-              href: "https://0daysecurity.io",
-              icon: <Icons.globe className="size-3" />,
-            },
-          ],
-          image: "",
-          video:
-            "/0day.mp4",
-        },
-        {
-          title: "Dinner Site",
-          href: "https://dinner-site.onrender.com/",
-          dates: "2025",
-          active: true,
-          description:
-            "Pet Project: Used Framer motion animations to develop a user centered Landing page for a college dinner",
-          technologies: [
-            "ReactJS",
-            "TailwindCSS",
-            "Framer Motion"
-
-          ],
-          links: [
-            {
-              type: "Website",
-              href: "https://dinner-site.onrender.com/",
-              icon: <Icons.globe className="size-3" />,
-            },
-          ],
-          image: "",
-          video:
-            "/dinner.mp4",
-        },
-        {
-          title: "AO Cybersecurity Partners",
-          href: "https://ao-partners-cybersecurity.onrender.com/",
-          dates: "2024",
-          active: true,
-          description:
-            "Pet Project: Used Framer motion animations, ReactJS and tailwind to design brand website for ao cybersecurity firm",
-          technologies: [
-            "ReactJS",
-            "TailwindCSS",
-            "Framer Motion"
-
-          ],
-          links: [
-            {
-              type: "Website",
-              href: "https://ao-partners-cybersecurity.onrender.com/",
-              icon: <Icons.globe className="size-3" />,
-            },
-          ],
-          image: "",
-          video:
-            "/ao.mp4",
+          type: "Website",
+          href: "https://www.anywherehealing.com",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
+      image: "",
+      placeholder: "/anywherehealing.png",
+      video: "/anywherehealing.mp4",
+    },
+    {
+      title: "0day Security",
+      href: "https://www.0daysecurity.io",
+      dates: "2025",
+      active: true,
+      description:
+        "Developed a brand website for a canadian based cyber security firm to acheive better brand representation",
+      technologies: ["NextJS", "TailwindCSS", "Framer Motion"],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.0daysecurity.io",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      placeholder: "/0day.png",
+      video: "/0day.mp4",
+    },
+    {
+      title: "Polaris Vet Clinic",
+      href: "https://www.polarisVetConsult.com.ng",
+      dates: "2025",
+      active: true,
+      description:
+        "Developed a brand website for a veterinary clinic to acheive better customer engagement",
+      technologies: ["NextJS", "TailwindCSS", "Framer Motion"],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.polarisVetConsult.com.ng",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      placeholder: "/polaris.png",
+      video: "/polaris.mp4",
+    },
+    {
+      title: "FLysmart Drone Logistics",
+      href: "https://www.flydrone.vercel.app",
+      dates: "2025",
+      active: true,
+      description:
+        "Developed a full stack dashboard for a drone logistics company to manage their operations and customers",
+      technologies: [
+        "NextJS",
+        "TailwindCSS",
+        "Framer Motion",
+        "NestJS",
+        "FastAPI",
+        "PostgreSQL",
+        "Supabase",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.flydrone.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/flysmart.png",
+      placeholder: "/flysmart.png",
+      video: "",
+    },
+    {
+      title: "Reispar Technologies",
+      href: "https://reispartechnologies.com",
+      dates: "2024",
+      active: true,
+      description: "Designed, developed  brand website.",
+      technologies: ["React.js", "Vite.js", "Typescript", "Sass"],
+      links: [
+        {
+          type: "Website",
+          href: "https://reispartechnologies.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      placeholder: "/reispar.png",
+      video: "/reispar.mp4",
+    },
+    {
+      title: "Villaja",
+      href: "https://villaja.com",
+      dates: "2024",
+      active: true,
+      description:
+        "Developed an e-commerce mobile applications to connect customers and sellers of tech gadgets",
+      technologies: ["React Native", "Expo", "CSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://villaja.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/villaja.mp4",
+      placeholder: "",
+    },
+  ],
   certifications: [
     {
       name: "Developing Front End Apps with React",
@@ -972,7 +928,8 @@ avatarUrl: "/profile.png",
   ],
   publications: [
     {
-      title: "Building secure software: how to avoid security problems the right way",
+      title:
+        "Building secure software: how to avoid security problems the right way",
       platform: "ResearchGate",
       date: "July 2024",
       link: "https://www.researchgate.net",
@@ -1000,25 +957,55 @@ avatarUrl: "/profile.png",
       </svg>
     ),
     openai: () => (
-      <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
-	<path fill="black" d="m12.89 3l1.96.4L11.11 21l-1.96-.4zm6.7 9L16 8.41V5.58L22.42 12L16 18.41v-2.83zM1.58 12L8 5.58v2.83L4.41 12L8 15.58v2.83z" />
-</svg>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="100"
+        height="100"
+        viewBox="0 0 24 24"
+      >
+        <path
+          fill="black"
+          d="m12.89 3l1.96.4L11.11 21l-1.96-.4zm6.7 9L16 8.41V5.58L22.42 12L16 18.41v-2.83zM1.58 12L8 5.58v2.83L4.41 12L8 15.58v2.83z"
+        />
+      </svg>
     ),
     googleDrive: () => (
-      <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 32 32">
-	<path fill="#6e5494" fill-rule="evenodd" d="M16 4C9.371 4 4 9.371 4 16c0 5.3 3.438 9.8 8.207 11.387c.602.11.82-.258.82-.578c0-.286-.011-1.04-.015-2.04c-3.34.723-4.043-1.609-4.043-1.609c-.547-1.387-1.332-1.758-1.332-1.758c-1.09-.742.082-.726.082-.726c1.203.086 1.836 1.234 1.836 1.234c1.07 1.836 2.808 1.305 3.492 1c.11-.777.422-1.305.762-1.605c-2.664-.301-5.465-1.332-5.465-5.93c0-1.313.469-2.383 1.234-3.223c-.121-.3-.535-1.523.117-3.175c0 0 1.008-.32 3.301 1.23A11.5 11.5 0 0 1 16 9.805c1.02.004 2.047.136 3.004.402c2.293-1.55 3.297-1.23 3.297-1.23c.656 1.652.246 2.875.12 3.175c.77.84 1.231 1.91 1.231 3.223c0 4.61-2.804 5.621-5.476 5.922c.43.367.812 1.101.812 2.219c0 1.605-.011 2.898-.011 3.293c0 .32.214.695.824.578C24.566 25.797 28 21.3 28 16c0-6.629-5.371-12-12-12" />
-</svg>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="100"
+        height="100"
+        viewBox="0 0 32 32"
+      >
+        <path
+          fill="#6e5494"
+          fill-rule="evenodd"
+          d="M16 4C9.371 4 4 9.371 4 16c0 5.3 3.438 9.8 8.207 11.387c.602.11.82-.258.82-.578c0-.286-.011-1.04-.015-2.04c-3.34.723-4.043-1.609-4.043-1.609c-.547-1.387-1.332-1.758-1.332-1.758c-1.09-.742.082-.726.082-.726c1.203.086 1.836 1.234 1.836 1.234c1.07 1.836 2.808 1.305 3.492 1c.11-.777.422-1.305.762-1.605c-2.664-.301-5.465-1.332-5.465-5.93c0-1.313.469-2.383 1.234-3.223c-.121-.3-.535-1.523.117-3.175c0 0 1.008-.32 3.301 1.23A11.5 11.5 0 0 1 16 9.805c1.02.004 2.047.136 3.004.402c2.293-1.55 3.297-1.23 3.297-1.23c.656 1.652.246 2.875.12 3.175c.77.84 1.231 1.91 1.231 3.223c0 4.61-2.804 5.621-5.476 5.922c.43.367.812 1.101.812 2.219c0 1.605-.011 2.898-.011 3.293c0 .32.214.695.824.578C24.566 25.797 28 21.3 28 16c0-6.629-5.371-12-12-12"
+        />
+      </svg>
     ),
     whatsapp: () => (
-      <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 256 256">
-	<path fill="#c12127" d="M0 256V0h256v256z" />
-	<path fill="#fff" d="M48 48h160v160h-32V80h-48v128H48z" />
-</svg>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="100"
+        height="100"
+        viewBox="0 0 256 256"
+      >
+        <path fill="#c12127" d="M0 256V0h256v256z" />
+        <path fill="#fff" d="M48 48h160v160h-32V80h-48v128H48z" />
+      </svg>
     ),
     googleDocs: () => (
-      <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
-	<path fill="#0056d2" d="M11.374 23.977c-4.183-.21-8.006-2.626-9.959-6.347c-2.097-3.858-1.871-8.864.732-12.454C4.748 1.338 9.497-.698 14.281.23c4.583.857 8.351 4.494 9.358 8.911c1.122 4.344-.423 9.173-3.925 12.04c-2.289 1.953-5.295 2.956-8.34 2.797zm7.705-8.05a589 589 0 0 0-3.171-1.887c-.903 1.483-2.885 2.248-4.57 1.665c-2.024-.639-3.394-2.987-2.488-5.134c.801-2.009 2.79-2.707 4.357-2.464a4.2 4.2 0 0 1 2.623 1.669c1.077-.631 2.128-1.218 3.173-1.855c-2.03-3.118-6.151-4.294-9.656-2.754c-3.13 1.423-4.89 4.68-4.388 7.919c.54 3.598 3.73 6.486 7.716 6.404a7.66 7.66 0 0 0 6.404-3.563" />
-</svg>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="100"
+        height="100"
+        viewBox="0 0 24 24"
+      >
+        <path
+          fill="#0056d2"
+          d="M11.374 23.977c-4.183-.21-8.006-2.626-9.959-6.347c-2.097-3.858-1.871-8.864.732-12.454C4.748 1.338 9.497-.698 14.281.23c4.583.857 8.351 4.494 9.358 8.911c1.122 4.344-.423 9.173-3.925 12.04c-2.289 1.953-5.295 2.956-8.34 2.797zm7.705-8.05a589 589 0 0 0-3.171-1.887c-.903 1.483-2.885 2.248-4.57 1.665c-2.024-.639-3.394-2.987-2.488-5.134c.801-2.009 2.79-2.707 4.357-2.464a4.2 4.2 0 0 1 2.623 1.669c1.077-.631 2.128-1.218 3.173-1.855c-2.03-3.118-6.151-4.294-9.656-2.754c-3.13 1.423-4.89 4.68-4.388 7.919c.54 3.598 3.73 6.486 7.716 6.404a7.66 7.66 0 0 0 6.404-3.563"
+        />
+      </svg>
     ),
     zapier: () => (
       <svg
@@ -1060,9 +1047,17 @@ avatarUrl: "/profile.png",
       </svg>
     ),
     messenger: () => (
-      <svg xmlns="http://www.w3.org/2000/svg" width="0.75em" height="1em" viewBox="0 0 384 512">
-	<path fill="black" d="M228.66 408.101c-20.194-21.973-47.218-57.268-69.698-97.166c37.134-8.685 64.633-43.55 64.633-78.384c0-51.345-39.88-75.176-92.163-75.176c-27.023 0-48.583 1.365-68.716 1.365c-18.369 0-36.722 0-48.154-.445V171.6l17.401 3.192c11.97 2.302 18.783 7.765 18.783 36.214v180.6c0 28.435-6.813 33.928-18.783 36.2l-17.4 3.252v13.259c12.367-.445 33.912-1.351 55.473-1.351c20.624 0 47.217.906 58.68 1.35v-13.258l-23.847-3.253c-12.366-1.796-18.813-7.764-18.813-36.2v-76.542c11.002.921 20.624.921 35.325.921c27.96 49.95 54.551 87.56 69.652 104.962c13.78 16.526 34.85 27.054 61.442 27.054c7.781 0 16.023-1.367 21.054-3.683v-11.894c-16.496 0-32.992-11.477-44.87-24.321zM119.064 295.344c-15.591 0-22.434-.414-33.008-1.41V178.918c10.574-.92 24.752-.92 37.136-.92c38.531 0 61.427 20.195 61.427 56.839c0 36.215-24.736 60.506-65.555 60.506M258.998 179.64c-.46-2.409-.875-5.217-1.243-8.456c-.383-3.268-.63-7.104-.782-11.63c-.154-4.496-.215-9.99-.215-16.282c0-6.323.061-11.74.215-16.25c.152-4.528.399-8.41.782-11.648c.368-3.223.782-6.046 1.243-8.455a51 51 0 0 1 1.78-6.982c3.943-11.923 10.405-20.885 19.443-26.901C289.244 67.02 300.308 64 313.443 64c6.752 0 12.875.782 18.307 2.377c5.371 1.581 10.189 3.76 14.44 6.553c4.189 2.762 7.81 6.015 10.802 9.698a53 53 0 0 1 7.474 11.878c.75 1.35.537 2.425-.66 3.176l-16.68 6.858c-1.413.753-2.41.37-3.193-1.12c-3.743-6.936-6.936-11.493-12.183-14.807c-5.31-3.3-10.22-4.865-18.308-4.865c-8.793 0-12.721 1.749-18.23 5.693c-5.463 3.867-9.468 8.732-11.832 16.143c-.474 1.335-.905 2.993-1.41 4.942c-.415 1.98-.753 4.404-.967 7.242c-.215 2.84-.415 6.353-.598 10.497c-.123 4.144-.184 9.177-.184 15.008c0 5.86.061 10.894.184 15.038c.184 4.128.383 7.641.598 10.48c.214 2.87.552 5.279.966 7.274c.507 1.919.937 3.575 1.411 4.927c2.364 7.38 5.74 11.415 10.712 14.654c4.911 3.284 10.557 5.648 19.35 5.648c7.811 0 14.962-2.225 19.626-5.618c4.62-3.39 8.456-7.87 10.175-13.994c.753-2.579 1.72-5.786 2.38-9.714c.598-3.929.598-8.087.598-13.825c0-.907-.508-1.367-1.352-1.367h-26.716c-1.504 0-2.24-.736-2.24-2.24v-15.314c0-1.52.736-2.257 2.24-2.257h49.028c1.535 0 2.257.737 2.257 2.257v13.09c0 6.935 0 13.365-.722 19.32c-.691 5.953-1.626 11.109-2.808 14.868c-3.744 11.77-9.682 20.15-18.782 26.394c-9.131 6.291-20.9 9.682-33.684 9.682c-13.135 0-24.199-3.022-33.221-9.022c-9.039-6.077-15.5-14.993-19.443-26.916a51 51 0 0 1-1.78-6.997z" />
-</svg>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="0.75em"
+        height="1em"
+        viewBox="0 0 384 512"
+      >
+        <path
+          fill="black"
+          d="M228.66 408.101c-20.194-21.973-47.218-57.268-69.698-97.166c37.134-8.685 64.633-43.55 64.633-78.384c0-51.345-39.88-75.176-92.163-75.176c-27.023 0-48.583 1.365-68.716 1.365c-18.369 0-36.722 0-48.154-.445V171.6l17.401 3.192c11.97 2.302 18.783 7.765 18.783 36.214v180.6c0 28.435-6.813 33.928-18.783 36.2l-17.4 3.252v13.259c12.367-.445 33.912-1.351 55.473-1.351c20.624 0 47.217.906 58.68 1.35v-13.258l-23.847-3.253c-12.366-1.796-18.813-7.764-18.813-36.2v-76.542c11.002.921 20.624.921 35.325.921c27.96 49.95 54.551 87.56 69.652 104.962c13.78 16.526 34.85 27.054 61.442 27.054c7.781 0 16.023-1.367 21.054-3.683v-11.894c-16.496 0-32.992-11.477-44.87-24.321zM119.064 295.344c-15.591 0-22.434-.414-33.008-1.41V178.918c10.574-.92 24.752-.92 37.136-.92c38.531 0 61.427 20.195 61.427 56.839c0 36.215-24.736 60.506-65.555 60.506M258.998 179.64c-.46-2.409-.875-5.217-1.243-8.456c-.383-3.268-.63-7.104-.782-11.63c-.154-4.496-.215-9.99-.215-16.282c0-6.323.061-11.74.215-16.25c.152-4.528.399-8.41.782-11.648c.368-3.223.782-6.046 1.243-8.455a51 51 0 0 1 1.78-6.982c3.943-11.923 10.405-20.885 19.443-26.901C289.244 67.02 300.308 64 313.443 64c6.752 0 12.875.782 18.307 2.377c5.371 1.581 10.189 3.76 14.44 6.553c4.189 2.762 7.81 6.015 10.802 9.698a53 53 0 0 1 7.474 11.878c.75 1.35.537 2.425-.66 3.176l-16.68 6.858c-1.413.753-2.41.37-3.193-1.12c-3.743-6.936-6.936-11.493-12.183-14.807c-5.31-3.3-10.22-4.865-18.308-4.865c-8.793 0-12.721 1.749-18.23 5.693c-5.463 3.867-9.468 8.732-11.832 16.143c-.474 1.335-.905 2.993-1.41 4.942c-.415 1.98-.753 4.404-.967 7.242c-.215 2.84-.415 6.353-.598 10.497c-.123 4.144-.184 9.177-.184 15.008c0 5.86.061 10.894.184 15.038c.184 4.128.383 7.641.598 10.48c.214 2.87.552 5.279.966 7.274c.507 1.919.937 3.575 1.411 4.927c2.364 7.38 5.74 11.415 10.712 14.654c4.911 3.284 10.557 5.648 19.35 5.648c7.811 0 14.962-2.225 19.626-5.618c4.62-3.39 8.456-7.87 10.175-13.994c.753-2.579 1.72-5.786 2.38-9.714c.598-3.929.598-8.087.598-13.825c0-.907-.508-1.367-1.352-1.367h-26.716c-1.504 0-2.24-.736-2.24-2.24v-15.314c0-1.52.736-2.257 2.24-2.257h49.028c1.535 0 2.257.737 2.257 2.257v13.09c0 6.935 0 13.365-.722 19.32c-.691 5.953-1.626 11.109-2.808 14.868c-3.744 11.77-9.682 20.15-18.782 26.394c-9.131 6.291-20.9 9.682-33.684 9.682c-13.135 0-24.199-3.022-33.221-9.022c-9.039-6.077-15.5-14.993-19.443-26.916a51 51 0 0 1-1.78-6.997z"
+        />
+      </svg>
     ),
-  }
+  },
 } as const;
