@@ -868,7 +868,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://www.flydrone.vercel.app",
+          href: "https://www.flysmartapp.in/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
