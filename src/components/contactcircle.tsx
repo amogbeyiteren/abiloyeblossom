@@ -68,7 +68,7 @@ export function OrbitingCircle() {
           delay={20}
           reverse
         >
-          <Icons.gitHub />
+          <Icons.linkedin />
           
         </OrbitingCircles>
       
@@ -85,7 +85,7 @@ const Icons = {
       />
     </svg>
   ),
-  /*
+  
   linkedin: () => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -105,7 +105,7 @@ const Icons = {
       />
     </svg>
   ),
-  */
+  
   openai: () => (
     <svg
       width="100"

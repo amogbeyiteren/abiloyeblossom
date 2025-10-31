@@ -725,12 +725,17 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/amogbeyiteren",
         icon: Icons.github,
+        navbar: false,
+      },
+      LinkedIn: {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/abiloye-mogbeyiteren/",
+        icon: Icons.linkedin,
         navbar: true,
       },
-
       email: {
         name: "Send Email",
-        url: "mailto:amogbeyiteren@gmail.com",
+        url: "mailto:abiloyeblossom@gmail.com",
         icon: Icons.email,
         navbar: false,
       },
