@@ -61,7 +61,9 @@ export function ProjectCard({
             playsInline
             preload="metadata"
             poster={placeholder || "/placeholder.webp"}
-            className="pointer-events-none mx-auto h-40 w-full object-contain object-top" // needed because random black line at bottom of video
+            aria-hidden="true"
+            tabIndex={-1}
+            className="pointer-events-none mx-auto w-full aspect-[1920/876] object-cover"
           />
         )}
         {image && (

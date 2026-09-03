@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
+import { MotionConfig } from "framer-motion";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 
@@ -53,8 +54,32 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: DATA.name,
+    url: DATA.url,
+    image: `${DATA.url}${DATA.avatarUrl}`,
+    jobTitle: DATA.work[0]?.title,
+    description: DATA.description,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: DATA.location,
+    },
+    email: DATA.contact.email,
+    sameAs: Object.values(DATA.contact.social)
+      .map((social): string => social.url)
+      .filter((url) => url && url !== "#" && !url.startsWith("mailto:")),
+  };
+
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6",
@@ -63,8 +88,10 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="dark">
           <TooltipProvider delayDuration={0}>
-            {children}
-            <Navbar />
+            <MotionConfig reducedMotion="user">
+              {children}
+              <Navbar />
+            </MotionConfig>
           </TooltipProvider>
         </ThemeProvider>
       </body>

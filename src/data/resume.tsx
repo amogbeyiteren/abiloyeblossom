@@ -692,7 +692,7 @@ import { HomeIcon } from "lucide-react";
 export const DATA = {
   name: "Abiloye Mogbeyiteren",
   initials: "AM",
-  url: "https://linkedin.com/in/abiloye-mogbeyiteren-412909286",
+  url: "https://abiloyeblossom.vercel.app",
   location: "Sapele, Delta",
   locationLink: "https://www.google.com/maps/place/Sapele,+Delta",
   description:
@@ -798,25 +798,6 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Anywherehealing Landing Page",
-      href: "https://www.anywherehealing.com",
-      dates: "2025",
-      active: true,
-      description:
-        "I built a landing page for a health and wellness technology company to help with better representation of their services.",
-      technologies: ["NextJS", "Typescript", "TailwindCSS", "Sanity CMS"],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.anywherehealing.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      placeholder: "/anywherehealing.png",
-      video: "/anywherehealing.mp4",
-    },
-    {
       title: "0day Security",
       href: "https://www.0daysecurity.io",
       dates: "2025",
@@ -836,87 +817,99 @@ export const DATA = {
       video: "/0day.mp4",
     },
     {
-      title: "Polaris Vet Clinic",
-      href: "https://www.polarisVetConsult.com.ng",
+      title: "Bardge",
+      href: "https://bardge.com",
       dates: "2025",
       active: true,
       description:
-        "Developed a brand website for a veterinary clinic to acheive better customer engagement",
+        "Worked as frontend engineer on Bardge (formerly Flance) — Africa's largest fitness and wellness network, delivering a single membership pass into 1,000+ gyms, spas and activity centers across 35+ cities in Nigeria, Ghana and other African markets, with sponsored access for employers and HMOs.",
+      technologies: ["NextJS", "Typescript", "TailwindCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://bardge.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      placeholder: "/bardge.png",
+      video: "/bardge.mp4",
+    },
+    {
+      title: "Innoteris",
+      href: "https://innoteris.dev",
+      dates: "2025",
+      active: true,
+      description:
+        "Developed the brand and portfolio website for Innoteris, a multidisciplinary product studio that takes ideas from concept to market-ready software — covering product strategy, UX/UI design, engineering, and growth for teams building in and for African markets.",
       technologies: ["NextJS", "TailwindCSS", "Framer Motion"],
       links: [
         {
           type: "Website",
-          href: "https://www.polarisVetConsult.com.ng",
+          href: "https://innoteris.dev",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
-      placeholder: "/polaris.png",
-      video: "/polaris.mp4",
+      placeholder: "/innoteris.png",
+      video: "/innoteris.mp4",
     },
     {
-      title: "FLysmart Drone Logistics",
-      href: "https://www.flydrone.vercel.app",
+      title: "Semirrah",
+      href: "https://semirrah.com",
       dates: "2025",
       active: true,
       description:
-        "Developed a full stack dashboard for a drone logistics company to manage their operations and customers",
-      technologies: [
-        "NextJS",
-        "TailwindCSS",
-        "Framer Motion",
-        "NestJS",
-        "FastAPI",
-        "PostgreSQL",
-        "Supabase",
-      ],
+        "Designed and built a multi-category ecommerce platform focused on product discovery and conversion — with product search, categories, flash sales, wishlist, cart management, secure checkout, and order tracking to boost engagement and reduce cart abandonment.",
+      technologies: ["NextJS", "Typescript", "TailwindCSS"],
       links: [
         {
           type: "Website",
-          href: "https://www.flysmartapp.in/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/flysmart.png",
-      placeholder: "/flysmart.png",
-      video: "",
-    },
-    {
-      title: "Reispar Technologies",
-      href: "https://reispartechnologies.com",
-      dates: "2024",
-      active: true,
-      description: "Designed, developed  brand website.",
-      technologies: ["React.js", "Vite.js", "Typescript", "Sass"],
-      links: [
-        {
-          type: "Website",
-          href: "https://reispartechnologies.com",
+          href: "https://semirrah.com",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
-      placeholder: "/reispar.png",
-      video: "/reispar.mp4",
+      placeholder: "/semirrah.png",
+      video: "/semirrah.mp4",
     },
     {
-      title: "Villaja",
-      href: "https://villaja.com",
-      dates: "2024",
+      title: "The Oaklands",
+      href: "https://www.oaklandshotelandpark.com",
+      dates: "2025",
       active: true,
       description:
-        "Developed an e-commerce mobile applications to connect customers and sellers of tech gadgets",
-      technologies: ["React Native", "Expo", "CSS"],
+        "Designed and built the website for The Oaklands — an exclusive 50-room hotel with an amusement park and five event halls in the heart of Enugu's GRA, featuring room bookings, event space enquiries, and WhatsApp-first customer support.",
+      technologies: ["NextJS", "TailwindCSS", "Framer Motion"],
       links: [
         {
           type: "Website",
-          href: "https://villaja.com",
+          href: "https://www.oaklandshotelandpark.com",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
-      video: "/villaja.mp4",
-      placeholder: "",
+      placeholder: "/oaklands.png",
+      video: "/oaklands.mp4",
+    },
+    {
+      title: "Edova",
+      href: "https://www.edova.uk",
+      dates: "2025",
+      active: true,
+      description:
+        "Designed and built the website for Edova, a study-abroad guidance platform offering honest, data-driven support for choosing the right course, securing a visa, and settling abroad, backed by real advisors.",
+      technologies: ["NextJS", "TailwindCSS", "Framer Motion"],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.edova.uk",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      placeholder: "/edova.png",
+      video: "/edova.mp4",
     },
   ],
   certifications: [
@@ -938,6 +931,22 @@ export const DATA = {
       platform: "ResearchGate",
       date: "July 2024",
       link: "https://www.researchgate.net",
+    },
+  ],
+  community: [
+    {
+      title: "Speaker, Digitalized Africa",
+      description:
+        '"Ship Fast. Look Great. Stay Relevant." — workshop on modern frontend development with AI workflows',
+      date: "April 4, 2026",
+      location: "Google Meet",
+    },
+    {
+      title: "Volunteer, ConnectED Initiative",
+      description:
+        "Programmes & Projects team (Engine). Working on impact research, SDG curriculum integration, and internal metrics gap analysis for Nigerian student education programmes",
+      date: "August 2026 – Present",
+      location: "",
     },
   ],
   PCIcons: {

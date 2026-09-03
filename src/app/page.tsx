@@ -318,6 +318,21 @@ export default function Page() {
                 </BlurFade>
               ))}
             </ul>
+            <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
+              {DATA.community.map((item, id) => (
+                <BlurFade
+                  key={item.title + item.date}
+                  delay={BLUR_FADE_DELAY * 15 + id * 0.05}
+                >
+                  <HackathonCard
+                    title={item.title}
+                    description={item.description}
+                    location={item.location}
+                    dates={item.date}
+                  />
+                </BlurFade>
+              ))}
+            </ul>
           </BlurFade>
         </div>
       </section>
