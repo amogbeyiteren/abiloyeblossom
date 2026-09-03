@@ -696,22 +696,19 @@ export const DATA = {
   location: "Sapele, Delta",
   locationLink: "https://www.google.com/maps/place/Sapele,+Delta",
   description:
-    "Experienced Full Stack Developer skilled in producing impactful, user-centered web and mobile applications, with a focus on intuitive and innovative UI design.",
+    "Full-stack software engineer and co-founder based in Nigeria, specialising in React, Next.js, React Native, Node.js, NestJS, Django, and AI engineering.",
   summary:
-    "With over 3 years of experience, I specialize in [web and mobile development](/#skills) with an emphasis on [user experience and responsive design](/#projects). Currently working as a [Full Stack Developer](/#work), I'm dedicated to delivering seamless project experiences by integrating [front-end and back-end technologies](/#skills). Passionate about translating technical concepts into accessible, user-friendly solutions and driving ROI through efficient and high-performing code. Additionally, I value continuous learning through [certifications](/#certifications-publications) and [education](/#education).",
+    "I'm Abiloye Mogbeyiteren, a full-stack software engineer and co-founder based in Nigeria. I specialise in React, Next.js, React Native, Node.js, NestJS, and Django, building everything from real-time chat systems and peer-to-peer marketplaces to AI-powered tools and drone delivery platforms.\n\nBeyond writing code, I build products. I'm currently co-founding Emet Tech Solutions while working as a software engineer at Bardge, Africa's largest fitness and wellness network. I've shipped across fintech, logistics, edtech, e-commerce, and security, and I do penetration testing on the side.\n\nI'm also an AI engineer: I build tool-calling architectures and AI copilots integrated with OpenAI, Anthropic, and Gemini APIs.\n\nIf it needs to be fast, scalable, and actually work in production, that's where I operate.",
   avatarUrl: "/profile.png",
   skills: [
-    "Responsive Web & Cross-Platform Development",
-    "API Integration & RESTful APIs",
-    "React (React Native, React.js), JavaScript, & CSS",
-    "Python (Django) & Node.js",
-    "Database Management (SQL, MongoDB)",
-    "Cloud Platforms (Google Cloud)",
-    "Version Control (Git)",
-    "Debugging & Software Best Practices",
-    "Web Security & API Documentation",
-    "Asynchronous Task Handling & Message Queues",
-    "Requirements Gathering & Team Collaboration",
+    "Frontend: React, Next.js, React Native (Expo), Tailwind CSS, Redux Toolkit, Turborepo, CSS Animations, SEO/AEO, Bundle Optimization",
+    "Backend: Node.js, NestJS, Django, Django Channels, WebSockets, REST APIs, Celery, Redis, Swagger/OpenAPI",
+    "Mobile: React Native, Expo Router, FCM Push Notifications, Google Maps SDK",
+    "Databases: PostgreSQL, Firebase, Supabase, Prisma ORM, Django ORM",
+    "AI Engineering: Tool/Function Calling, AI Copilot Development, OpenAI / Anthropic / Gemini APIs",
+    "Security: Penetration Testing (Web + Network), OWASP, Burp Suite, E2EE Implementation",
+    "Cloud & DevOps: AWS, Azure, DigitalOcean, Dokploy, CI/CD Pipelines",
+    "Integrations: Paystack, Razorpay, Algolia, Cloudinary, Backblaze B2, Tawk.to, Microsoft Graph API, Google Calendar API, Google Maps SDK, KYC Services",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -743,45 +740,82 @@ export const DATA = {
   },
   work: [
     {
-      company: "Flance Technologies",
-      href: "https://www.flanceapp.com",
+      company: "Emet Tech Solutions",
+      href: "",
       badges: [],
       location: "Remote",
-      title: "Frontend Engineer",
+      title: "Co-founder",
+      logoUrl: "",
+      start: "Jan 2026",
+      end: "",
+      image: "",
+      description:
+        "Co-founding an early-stage tech startup. Currently building two products: Cheefarms (cheefarms.vercel.app) and Enta (entaapp.com).",
+    },
+    {
+      company: "Bardge (formerly Flance)",
+      href: "https://bardge.com",
+      badges: [],
+      location: "Remote",
+      title: "Software Engineer",
       logoUrl: "/flance.png",
-      start: "2025",
+      start: "Feb 2025",
       end: "",
       image: "/flance.png",
-
       description:
-        "Collaborated with the backend team to build the frontend of the Flance web applicatons. Worked on the UI/UX of the app and the integration of the backend APIs.",
+        "Frontend engineering across three simultaneous production web applications for Africa's largest fitness network. Led platform-wide rebranding, a Sass-to-Tailwind migration (30% faster development), SEO/AEO optimization, and event tracking implementation. Integrated Tawk.to, Headway, and Firebase Cloud Messaging. Stack: React, Next.js, Tailwind CSS, Redux Toolkit, Firebase.",
     },
     {
-      company: "Reispar Technologies",
-      href: "https://reispartechnologies.com",
+      company: "Innoteris",
+      href: "https://innoteris.dev",
       badges: [],
       location: "Remote",
-      title: "Full Stack Developer",
-      logoUrl: "/reispar.png",
-      start: "2024",
+      title: "Software Engineer",
+      logoUrl: "",
+      start: "Nov 2025",
       end: "",
-      image: "/semis.png",
-
+      image: "",
       description:
-        "Developed functional databases and back-end applications using Django and PostgreSQL. Collaborated with teams on feature design and implementation while maintaining project documentation and code reliability.",
+        "Frontend engineering at a multidisciplinary product studio. Works with React/Next.js monorepos using Turborepo and Medusa for headless commerce. Infrastructure managed via Dokploy.",
     },
     {
-      company: "Villaja",
-      href: "https://villaja.com",
+      company: "Independent Contractor",
+      href: "",
       badges: [],
       location: "Remote",
-      title: "Full Stack Developer (React Native)",
-      logoUrl: "/villaja.png",
-      start: "2024",
+      title: "Software Engineer",
+      logoUrl: "",
+      start: "Jan 2025",
       end: "",
-      image: "/villaja.jpg",
+      image: "",
       description:
-        "Developed optimized front-end interfaces and integrated APIs to enhance user experience and streamline project delivery. Worked closely with UX/UI designers, and implemented responsive design standards.",
+        "Stryde (Feb – Sep 2025): full-stack peer-to-peer car rental platform — React Native/Expo, Node.js/Prisma/Supabase, Paystack, Algolia search with geolocation, WebSocket real-time chat, Google Maps SDK, KYC verification, and FCM push notifications. Hira (Jul – Aug 2025): secure real-time chat backend — NestJS/TypeScript, E2EE architecture, OAuth 2.0, Firebase Realtime Database, Backblaze B2 (50% storage cost reduction), and DigitalOcean deployment. Flysmart (Apr – Jun 2025): drone delivery logistics platform — built the NestJS backend from scratch, WebSocket drone communication, Razorpay payment gateway, and a React merchant dashboard.",
+    },
+    {
+      company: "DOT Solutions",
+      href: "",
+      badges: ["Part-time"],
+      location: "Remote",
+      title: "Software Engineer",
+      logoUrl: "",
+      start: "Jan 2024",
+      end: "Jan 2025",
+      image: "",
+      description:
+        "Reispar Technologies: full-stack Django mentor-mentee scheduling platform — bidirectional sync with Microsoft Graph and Google Calendar (30% increase in booking attendance), Django Channels WebSockets, Celery/Redis, and an AWS-to-Azure migration with zero data loss. Villaja: React Native/Expo mobile developer — production screen implementation, API integration, and code review.",
+    },
+    {
+      company: "AO Partners",
+      href: "",
+      badges: ["Part-time"],
+      location: "Remote",
+      title: "Penetration Tester",
+      logoUrl: "",
+      start: "Ongoing",
+      end: "",
+      image: "",
+      description:
+        "Mixed web application and network/infrastructure penetration testing on real client environments. OWASP methodology, Burp Suite.",
     },
   ],
   education: [
@@ -819,7 +853,7 @@ export const DATA = {
     {
       title: "Bardge",
       href: "https://bardge.com",
-      dates: "2025",
+      dates: "2026",
       active: true,
       description:
         "Worked as frontend engineer on Bardge (formerly Flance) — Africa's largest fitness and wellness network, delivering a single membership pass into 1,000+ gyms, spas and activity centers across 35+ cities in Nigeria, Ghana and other African markets, with sponsored access for employers and HMOs.",
@@ -838,7 +872,7 @@ export const DATA = {
     {
       title: "Innoteris",
       href: "https://innoteris.dev",
-      dates: "2025",
+      dates: "2026",
       active: true,
       description:
         "Developed the brand and portfolio website for Innoteris, a multidisciplinary product studio that takes ideas from concept to market-ready software — covering product strategy, UX/UI design, engineering, and growth for teams building in and for African markets.",
@@ -857,7 +891,7 @@ export const DATA = {
     {
       title: "Semirrah",
       href: "https://semirrah.com",
-      dates: "2025",
+      dates: "2026",
       active: true,
       description:
         "Designed and built a multi-category ecommerce platform focused on product discovery and conversion — with product search, categories, flash sales, wishlist, cart management, secure checkout, and order tracking to boost engagement and reduce cart abandonment.",
@@ -876,7 +910,7 @@ export const DATA = {
     {
       title: "The Oaklands",
       href: "https://www.oaklandshotelandpark.com",
-      dates: "2025",
+      dates: "2026",
       active: true,
       description:
         "Designed and built the website for The Oaklands — an exclusive 50-room hotel with an amusement park and five event halls in the heart of Enugu's GRA, featuring room bookings, event space enquiries, and WhatsApp-first customer support.",

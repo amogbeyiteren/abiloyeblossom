@@ -11,7 +11,7 @@ export async function GET() {
 
 > ${DATA.description}
 
-${DATA.name} is a Full Stack Developer based in ${DATA.location}, working across React, React Native, Next.js, Python (Django), and Node.js. This is their personal portfolio site.
+${DATA.name} is a full-stack software engineer and co-founder based in ${DATA.location}, working across React, Next.js, React Native, Node.js, NestJS, Django, and AI engineering integrations with OpenAI, Anthropic, and Gemini. This is their personal portfolio site.
 
 ## Docs
 
