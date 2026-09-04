@@ -215,6 +215,19 @@ export default function Page() {
                   websites to complex web applications. Here are a few of my
                   favorites.
                 </p>
+                <p className="mx-auto max-w-[600px] text-muted-foreground md:text-base/relaxed">
+                  These are frontend sites you can access directly, no login
+                  required. Dashboards built for clients that need a sign-in,
+                  along with backend systems and mobile apps I&apos;ve
+                  shipped, aren&apos;t shown here. Email me at{" "}
+                  <Link
+                    href={`mailto:${DATA.contact.email}`}
+                    className="text-foreground underline underline-offset-4"
+                  >
+                    {DATA.contact.email}
+                  </Link>{" "}
+                  and I&apos;ll walk you through them.
+                </p>
               </div>
             </div>
           </BlurFade>
@@ -239,20 +252,6 @@ export default function Page() {
               </BlurFade>
             ))}
           </div>
-          <BlurFade delay={BLUR_FADE_DELAY * 12 + DATA.projects.length * 0.05}>
-            <p className="mx-auto max-w-[600px] text-center text-muted-foreground">
-              The projects shown above are the frontend work I&apos;ve
-              shipped. I&apos;ve also built backend systems and mobile apps
-              that aren&apos;t listed here — email me at{" "}
-              <Link
-                href={`mailto:${DATA.contact.email}`}
-                className="text-foreground underline underline-offset-4"
-              >
-                {DATA.contact.email}
-              </Link>{" "}
-              and I&apos;ll walk you through them.
-            </p>
-          </BlurFade>
         </div>
       </section>
       {/* <section id="hackathons">

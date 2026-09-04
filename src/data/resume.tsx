@@ -812,7 +812,7 @@ export const DATA = {
   work: [
     {
       company: "Emet Tech Solutions",
-      href: "https://www.emettechsolutions.com",
+      href: "",
       badges: [],
       location: "Remote",
       title: "Co-founder",
@@ -860,7 +860,7 @@ export const DATA = {
       end: "",
       image: "",
       description:
-        "Stryde (Feb – Sep 2025): full-stack peer-to-peer car rental platform — React Native/Expo, Node.js/Prisma/Supabase, Paystack, Algolia search with geolocation, WebSocket real-time chat, Google Maps SDK, KYC verification, and FCM push notifications. Hira (Jul – Aug 2025): secure real-time chat backend — NestJS/TypeScript, E2EE architecture, OAuth 2.0, Firebase Realtime Database, Backblaze B2 (50% storage cost reduction), and DigitalOcean deployment. Flysmart (Apr – Jun 2025): drone delivery logistics platform — built the NestJS backend from scratch, WebSocket drone communication, Razorpay payment gateway, and a React merchant dashboard.",
+        "Stryde (Feb – Sep 2025): full-stack peer-to-peer car rental platform. Built with React Native/Expo, Node.js/Prisma/Supabase, Paystack, Algolia search with geolocation, WebSocket real-time chat, Google Maps SDK, KYC verification, and FCM push notifications. Hira (Jul – Aug 2025): secure real-time chat backend. Built with NestJS/TypeScript, E2EE architecture, OAuth 2.0, Firebase Realtime Database, Backblaze B2 (50% storage cost reduction), and DigitalOcean deployment. Flysmart (Apr – Jun 2025): drone delivery logistics platform. Built the NestJS backend from scratch, WebSocket drone communication, Razorpay payment gateway, and a React merchant dashboard.",
     },
     {
       company: "DOT Solutions",
@@ -873,7 +873,7 @@ export const DATA = {
       end: "Jan 2025",
       image: "",
       description:
-        "Reispar Technologies: full-stack Django mentor-mentee scheduling platform — bidirectional sync with Microsoft Graph and Google Calendar (30% increase in booking attendance), Django Channels WebSockets, Celery/Redis, and an AWS-to-Azure migration with zero data loss. Villaja: React Native/Expo mobile developer — production screen implementation, API integration, and code review.",
+        "Reispar Technologies: full-stack Django mentor-mentee scheduling platform. Built bidirectional sync with Microsoft Graph and Google Calendar (30% increase in booking attendance), Django Channels WebSockets, Celery/Redis, and an AWS-to-Azure migration with zero data loss. Villaja: React Native/Expo mobile developer. Delivered production screen implementation, API integration, and code review.",
     },
     {
       company: "AO Partners",
@@ -927,7 +927,7 @@ export const DATA = {
       dates: "2026",
       active: true,
       description:
-        "Worked as frontend engineer on Bardge (formerly Flance) — Africa's largest fitness and wellness network, delivering a single membership pass into 1,000+ gyms, spas and activity centers across 35+ cities in Nigeria, Ghana and other African markets, with sponsored access for employers and HMOs.",
+        "Worked as frontend engineer on Bardge (formerly Flance), Africa's largest fitness and wellness network, delivering a single membership pass into 1,000+ gyms, spas and activity centers across 35+ cities in Nigeria, Ghana and other African markets, with sponsored access for employers and HMOs.",
       technologies: ["NextJS", "Typescript", "TailwindCSS"],
       links: [
         {
@@ -946,7 +946,7 @@ export const DATA = {
       dates: "2026",
       active: true,
       description:
-        "Developed the brand and portfolio website for Innoteris, a multidisciplinary product studio that takes ideas from concept to market-ready software — covering product strategy, UX/UI design, engineering, and growth for teams building in and for African markets.",
+        "Developed the brand and portfolio website for Innoteris, a multidisciplinary product studio that takes ideas from concept to market-ready software, covering product strategy, UX/UI design, engineering, and growth for teams building in and for African markets.",
       technologies: ["NextJS", "TailwindCSS", "Framer Motion"],
       links: [
         {
@@ -965,7 +965,7 @@ export const DATA = {
       dates: "2026",
       active: true,
       description:
-        "Designed and built a multi-category ecommerce platform focused on product discovery and conversion — with product search, categories, flash sales, wishlist, cart management, secure checkout, and order tracking to boost engagement and reduce cart abandonment.",
+        "Designed and built a multi-category ecommerce platform focused on product discovery and conversion, with product search, categories, flash sales, wishlist, cart management, secure checkout, and order tracking to boost engagement and reduce cart abandonment.",
       technologies: ["NextJS", "Typescript", "TailwindCSS"],
       links: [
         {
@@ -984,7 +984,7 @@ export const DATA = {
       dates: "2026",
       active: true,
       description:
-        "Designed and built the website for The Oaklands — an exclusive 50-room hotel with an amusement park and five event halls in the heart of Enugu's GRA, featuring room bookings, event space enquiries, and WhatsApp-first customer support.",
+        "Designed and built the website for The Oaklands, an exclusive 50-room hotel with an amusement park and five event halls in the heart of Enugu's GRA, featuring room bookings, event space enquiries, and WhatsApp-first customer support.",
       technologies: ["NextJS", "TailwindCSS", "Framer Motion"],
       links: [
         {
@@ -1042,7 +1042,7 @@ export const DATA = {
     {
       title: "Speaker, Digitalized Africa",
       description:
-        '"Ship Fast. Look Great. Stay Relevant." — workshop on modern frontend development with AI workflows',
+        'Workshop on modern frontend development with AI workflows, titled "Ship Fast. Look Great. Stay Relevant."',
       date: "April 4, 2026",
       location: "Google Meet",
     },
