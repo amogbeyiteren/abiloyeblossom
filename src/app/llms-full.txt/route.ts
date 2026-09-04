@@ -28,7 +28,9 @@ export async function GET() {
     )
     .join("\n\n");
 
-  const skillsSection = DATA.skills.map((s) => `- ${s}`).join("\n");
+  const skillsSection = DATA.skills
+    .map((group) => `- **${group.category}:** ${group.items.join(", ")}`)
+    .join("\n");
 
   const projectsSection = DATA.projects
     .map(

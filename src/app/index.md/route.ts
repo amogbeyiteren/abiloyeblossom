@@ -14,7 +14,9 @@ export async function GET() {
     .map((e) => `- **${e.degree}**, ${e.school} (${e.start} – ${e.end})`)
     .join("\n");
 
-  const skillsSection = DATA.skills.map((s) => `- ${s}`).join("\n");
+  const skillsSection = DATA.skills
+    .map((group) => `- **${group.category}:** ${group.items.join(", ")}`)
+    .join("\n");
 
   const projectsSection = DATA.projects
     .map((p) => `- **[${p.title}](${p.href})** (${p.dates}) — ${p.description}`)
