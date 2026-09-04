@@ -786,7 +786,7 @@ export const DATA = {
     // { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "amogbeyiteren@gmail.com",
+    email: "abiloyeblossom@gmail.com",
     tel: "+234123456789",
     social: {
       GitHub: {
@@ -868,10 +868,10 @@ export const DATA = {
       badges: ["Part-time"],
       location: "Remote",
       title: "Software Engineer",
-      logoUrl: "/dot-solutions-logo.png",
+      logoUrl: "",
       start: "Jan 2024",
       end: "Jan 2025",
-      image: "/dot-solutions-logo.png",
+      image: "",
       description:
         "Reispar Technologies: full-stack Django mentor-mentee scheduling platform — bidirectional sync with Microsoft Graph and Google Calendar (30% increase in booking attendance), Django Channels WebSockets, Celery/Redis, and an AWS-to-Azure migration with zero data loss. Villaja: React Native/Expo mobile developer — production screen implementation, API integration, and code review.",
     },

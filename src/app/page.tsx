@@ -131,7 +131,7 @@ export default function Page() {
                 subtitle={work.title}
                 href={work.href}
                 badges={work.badges}
-                period={`${work.start} - ${work.end ?? "Present"}`}
+                period={work.end ? `${work.start} - ${work.end}` : work.start}
                 description={work.description}
               />
             </BlurFade>
@@ -156,7 +156,11 @@ export default function Page() {
                 altText={education.school}
                 title={education.school}
                 subtitle={education.degree}
-                period={`${education.start} - ${education.end}`}
+                period={
+                  education.end
+                    ? `${education.start} - ${education.end}`
+                    : education.start
+                }
                 gpa={education.GPA}
               />
             </BlurFade>
@@ -235,6 +239,20 @@ export default function Page() {
               </BlurFade>
             ))}
           </div>
+          <BlurFade delay={BLUR_FADE_DELAY * 12 + DATA.projects.length * 0.05}>
+            <p className="mx-auto max-w-[600px] text-center text-muted-foreground">
+              The projects shown above are the frontend work I&apos;ve
+              shipped. I&apos;ve also built backend systems and mobile apps
+              that aren&apos;t listed here — email me at{" "}
+              <Link
+                href={`mailto:${DATA.contact.email}`}
+                className="text-foreground underline underline-offset-4"
+              >
+                {DATA.contact.email}
+              </Link>{" "}
+              and I&apos;ll walk you through them.
+            </p>
+          </BlurFade>
         </div>
       </section>
       {/* <section id="hackathons">
